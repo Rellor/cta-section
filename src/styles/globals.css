@@ -34,5 +34,5 @@ p {
 }
 
 h2 {
-  @apply text-heading-2 font-bold text-text1;
+  @apply text-heading-2 font-bold text-text1 leading-12 tracking-[-0.03em];
 }
