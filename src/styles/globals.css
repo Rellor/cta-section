@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-commons: "TT Commons", sans-serif;
 }
 
 @theme inline {
@@ -20,4 +21,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-commons);
 }
