@@ -1,3 +1,4 @@
+import ImageButton from "@/components/atoms/imageButton";
 import ArrowRight from "@/components/icons/ArrowRight";
 
 export default function Home() {
@@ -22,6 +23,8 @@ export default function Home() {
             Optional button <ArrowRight className="inline" />
           </button>
         </div>
+        <ImageButton className="col-span-6 row-start-2 row-span-1" />
+        <ImageButton className="col-span-6 row-start-2 row-span-1" />
       </main>
     </div>
   );
