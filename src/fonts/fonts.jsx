@@ -21,3 +21,15 @@ export const ttCommons = localFont({
   variable: "--font-tt-commons",
   display: "swap",
 });
+
+export const gtAlpina = localFont({
+  src: [
+    {
+      path: "./GTAlpina-Light.otf",
+      weight: "300",
+      style: "normal",
+    },
+  ],
+  variable: "--font-gt-alpina",
+  display: "swap",
+});

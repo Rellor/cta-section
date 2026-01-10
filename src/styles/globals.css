@@ -9,6 +9,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-commons: var(--font-commons);
+  --font-gt-alpina: var(--font-gt-alpina);
 }
 
 @media (prefers-color-scheme: dark) {
