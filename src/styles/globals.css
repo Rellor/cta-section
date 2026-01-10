@@ -21,3 +21,15 @@ body {
   color: var(--foreground);
   font-family: var(--font-commons);
 }
+
+.label {
+  @apply text-sm text-groenGrijs;
+}
+
+p {
+  @apply text-[19px] text-text2;
+}
+
+h1 {
+  @apply text-[2.5rem] font-bold;
+}
