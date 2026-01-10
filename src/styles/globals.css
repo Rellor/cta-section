@@ -1,23 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --font-commons: "TT Commons", sans-serif;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-white: #ffffff;
+  --color-softWhite: #fafafa;
+  --color-black: #1b2426;
+
+  --color-orangeRed: #bf564d;
+  --color-groenGrijs: #39494d;
+
+  /* Should these colors also be the groenGrijs? Or do they have their own names? */
+  --color-text1: #212121;
+  --color-text2: #1e2526;
+
   --font-commons: var(--font-commons);
   --font-gt-alpina: var(--font-gt-alpina);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
