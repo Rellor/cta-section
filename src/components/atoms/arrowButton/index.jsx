@@ -9,7 +9,7 @@ const ArrowButton = ({ standalone, usedColor = "black" }) => {
         usedColor === "black"
           ? "border-black group-hover:border-black/50 group-active:border-black/80"
           : "border-white/30 group-hover:border-white/50 group-active:border-white/80"
-      } rounded-sm cursor-pointer transition-colors duration-200 w-fit`}
+      } rounded-sm cursor-pointer transition-colors duration-200 w-fit h-fit mt-auto`}
     >
       <ArrowRight
         className={standalone ? "inline" : ""}

@@ -4,7 +4,7 @@ const ImageButton = ({ className }) => {
   return (
     // Could also be possible to add hover:scale-[1.01] transition-all duration-200 for a bit more feedback when hovering
     <button
-      className={`bg-black aspect-4/3 rounded-sm relative bg-cover bg-center cursor-pointer group ${className}`}
+      className={`bg-black lg:aspect-4/3 aspect-3/4 rounded-sm relative bg-cover bg-center cursor-pointer group ${className}`}
       style={{ backgroundImage: "url('/images/image.png')" }}
     >
       <div className="absolute inset-0 bg-linear-to-b from-transparent from-50% to-[#141414] rounded-sm"></div>
