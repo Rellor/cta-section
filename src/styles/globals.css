@@ -12,6 +12,9 @@
   --color-text1: #212121;
   --color-text2: #1e2526;
 
+  --text-normal: 19px;
+  --text-heading-2: 2.5rem;
+
   --font-commons: var(--font-commons);
   --font-gt-alpina: var(--font-gt-alpina);
 }
@@ -27,9 +30,9 @@ body {
 }
 
 p {
-  @apply text-[19px] text-text2;
+  @apply text-normal text-text2;
 }
 
-h1 {
-  @apply text-[2.5rem] font-bold;
+h2 {
+  @apply text-heading-2 font-bold text-text1;
 }

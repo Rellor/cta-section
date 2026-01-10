@@ -5,12 +5,13 @@ export default function Home() {
     <div>
       <main>
         <p className="label">Label</p>
-        <h1 className="font-bold text-text1 text-[15px]">
+        {/* In design it shows an h2, but here we can also use an h1 for SEO purposes */}
+        <h2>
           Mandatory title about the{" "}
           <span className="font-gt-alpina font-light">call-to-action here</span>
-        </h1>
-        <p className="text-text2">Optional body copy goes here.</p>
-        <button className="text-orangeRed text-[19px]">
+        </h2>
+        <p>Optional body copy goes here.</p>
+        <button className="text-orangeRed text-normal">
           Optional button <ArrowRight className="inline" />
         </button>
       </main>
