@@ -16,6 +16,12 @@ export default function ArrowRight({
       active: "",
       disabled: "disabled:stroke-black/30",
     },
+    white: {
+      default: "stroke-white",
+      hover: "",
+      active: "",
+      disabled: "disabled:stroke-white/30",
+    },
   };
 
   const colors = arrowColor[usedColor] || arrowColor.orangeRed;
