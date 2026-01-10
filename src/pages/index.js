@@ -1,5 +1,5 @@
 import ImageButton from "@/components/atoms/imageButton";
-import ArrowRight from "@/components/icons/ArrowRight";
+import BaseButton from "@/components/atoms/baseButton";
 
 export default function Home() {
   return (
@@ -19,9 +19,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="text-text2">Optional body copy goes here.</p>
-          <button className="text-orangeRed text-normal w-fit cursor-pointer">
-            Optional button <ArrowRight className="inline" />
-          </button>
+          <BaseButton />
         </div>
         <ImageButton className="col-span-6 row-start-2 row-span-1" />
         <ImageButton className="col-span-6 row-start-2 row-span-1" />

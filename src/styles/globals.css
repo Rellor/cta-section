@@ -6,6 +6,9 @@
   --color-black: #1b2426;
 
   --color-orangeRed: #bf564d;
+  --color-orangeRedHover: #a6433a;
+  --color-orangeRedFocus: #59201b;
+
   --color-groenGrijs: #39494d;
 
   /* Should these colors also be the groenGrijs? Or do they have their own names? */
