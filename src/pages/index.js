@@ -17,16 +17,26 @@ export default function Home() {
               here
             </h2>
           </div>
-          <p>Optional body copy goes here.</p>
+          <p className="text-text2">Optional body copy goes here.</p>
           <button className="text-orangeRed text-normal w-fit">
             Optional button <ArrowRight className="inline" />
           </button>
         </div>
         <div className="bg-black col-span-6 aspect-4/3 row-start-2 row-span-1 rounded-sm relative">
-          <p className="absolute left-0 bottom-0 text-white">title</p>
+          <div className="absolute left-0 bottom-0">
+            <h4 className="text-white">title</h4>
+            <p className="text-softWhite/50">
+              Supporting text about the call-to-action goes here.
+            </p>
+          </div>
         </div>
         <div className="bg-black col-span-6 aspect-4/3 row-start-2 row-span-1 rounded-sm relative">
-          <p className="absolute left-0 bottom-0 text-white">title</p>
+          <div className="absolute left-0 bottom-0">
+            <h4 className="text-white">title</h4>
+            <p className="text-softWhite/50">
+              Supporting text about the call-to-action goes here.
+            </p>
+          </div>
         </div>
       </main>
     </div>
