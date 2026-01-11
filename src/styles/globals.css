@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-white: #ffffff;
+  --color-white: #fffcfa;
   --color-softWhite: #fafafa;
   --color-black: #1b2426;
 
@@ -15,38 +15,36 @@
   --color-text1: #212121;
   --color-text2: #1e2526;
 
-  --text-normal: 1.1875rem; /* 19px */
+  --text-normal: 1.188rem; /* 19px */
   --text-heading-2: 2.5rem; /* 40px */
   --text-heading-2-highlight: 2.625rem; /* 42px */
   --text-heading-4: 1.75rem; /* 28px */
 
-  --text-mobile-normal: 1rem; /* 17px */
-  --text-mobile-heading-2: 2rem; /* 36px */
-  --text-mobile-heading-2-highlight: 2.1875rem; /* 38px */
+  --text-mobile-normal: 1.063rem; /* 17px */
+  --text-mobile-heading-2: 2.25rem; /* 36px */
+  --text-mobile-heading-2-highlight: 2.375rem; /* 38px */
   --text-mobile-heading-4: 1.375rem; /* 22px */
 
-  --font-commons: var(--font-commons);
+  --font-commons: var(--font-tt-commons);
   --font-gt-alpina: var(--font-gt-alpina);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-commons);
+  @apply bg-white;
 }
 
 .label {
-  @apply text-sm text-groenGrijs;
+  @apply text-sm text-groenGrijs font-commons;
 }
 
 p {
-  @apply text-mobile-normal sm:text-normal;
+  @apply text-mobile-normal sm:text-normal font-commons;
 }
 
 h2 {
-  @apply text-mobile-heading-2 sm:text-heading-2 font-bold text-text1 leading-12 tracking-[-0.03em];
+  @apply text-mobile-heading-2 sm:text-heading-2 font-commons font-bold text-text1 sm:leading-12 leading-10 tracking-[-0.02em] sm:tracking-[-0.03em];
 }
 
 h4 {
-  @apply text-mobile-heading-4 sm:text-heading-4 font-semibold leading-8 tracking-[-0.02em];
+  @apply text-mobile-heading-4 sm:text-heading-4 font-commons font-semibold leading-8 tracking-[-0.02em];
 }
