@@ -19,7 +19,7 @@ export default function Home() {
               here
             </h2>
           </div>
-          <p className="text-text2">Optional body copy goes here.</p>
+          <p className="text-text2/80">Optional body copy goes here.</p>
           <BaseButton />
         </div>
 

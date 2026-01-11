@@ -5,7 +5,7 @@ const ArrowButton = ({ standalone, usedColor = "black" }) => {
 
   return (
     <Component
-      className={`p-4 border-2 ${
+      className={` p-3 sm:p-4 border-2 ${
         usedColor === "black"
           ? "border-black group-hover:border-black/50 group-active:border-black/80"
           : "border-white/30 group-hover:border-white/50 group-active:border-white/80"
