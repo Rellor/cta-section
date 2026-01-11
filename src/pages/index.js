@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <main className="w-full max-w-400 grid grid-cols-6 sm:grid-cols-12 gap-x-3 sm:gap-x-6 sm:gap-y-20 gap-y-4 p-5 sm:p-8 lg:p-16 mx-auto">
-        <div className="flex flex-col gap-6 items-center col-span-6 sm:col-start-2 sm:col-span-10 col-start-1 lg:col-start-3 lg:col-span-8 row-start-1 row-span-1 max-sm:mb-4">
-          <div className="text-center">
+        <div className="flex flex-col gap-4 sm:gap-6 items-center col-span-6 sm:col-start-2 sm:col-span-10 col-start-1 lg:col-start-3 lg:col-span-8 row-start-1 row-span-1 max-sm:mb-4">
+          <div className="text-center flex flex-col gap-2">
             <p className="label">Label</p>
             {/* In design it shows an h2, but here we can also use an h1 for SEO purposes */}
             <h2 className="font-commons">

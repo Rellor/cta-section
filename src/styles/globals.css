@@ -38,7 +38,7 @@ body {
 }
 
 p {
-  @apply text-mobile-normal sm:text-normal font-commons;
+  @apply text-mobile-normal sm:text-normal font-commons leading-6;
 }
 
 h2 {
@@ -46,5 +46,5 @@ h2 {
 }
 
 h4 {
-  @apply text-mobile-heading-4 sm:text-heading-4 font-commons font-semibold leading-8 tracking-[-0.02em];
+  @apply text-mobile-heading-4 sm:text-heading-4 font-commons font-semibold leading-6 sm:leading-8 tracking-[-0.01em] sm:tracking-[-0.02em];
 }
