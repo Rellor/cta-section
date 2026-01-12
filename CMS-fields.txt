@@ -1,4 +1,3 @@
-Eng:
 Label* 
 (Default: Call-to-action label)
 (Constraints: Max 50 Characters)
