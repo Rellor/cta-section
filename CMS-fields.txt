@@ -27,6 +27,7 @@ ImageCTA*
 - Image 
   - Link* 
   (Default: Fallback image)
+  (Constraint: Max upload size 1mb)
   - alt* 
   (Default: Description of the image)
   
