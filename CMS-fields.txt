@@ -1,6 +1,6 @@
 Label (Mandatory)
 
-Section-title (Mandatory) (Editable with <span>)
+Section-title (Mandatory) (Editable with <span> for highlight)
 
 Section-text (Optional)
 
