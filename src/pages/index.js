@@ -24,11 +24,13 @@ export default function Home() {
         <ImageButton
           title={data.imageCTA.title}
           text={data.imageCTA.text}
+          image={data.imageCTA.image}
           className="col-span-6 row-start-2 row-span-1"
         />
         <ImageButton
           title={data.imageCTA.title}
           text={data.imageCTA.text}
+          image={data.imageCTA.image}
           className="col-span-6 row-start-3 sm:row-start-2 row-span-1"
         />
       </main>

@@ -1,16 +1,42 @@
-Label (Mandatory)
+Eng:
+Label* 
+(Default: Call-to-action label)
+(Constraints: Max 50 Characters)
 
-Section-title (Mandatory) (Editable with <span> for highlight)
+Section title* 
+(Default: New <span>call-to-action</span> title) 
+(Tooltip: Add <span></span> to the text to highlight it.)
+(Constraints: Max 75 Characters)
 
-Section-text (Optional)
+Section text 
+(Default: Short supporting text that explains the call-to-action)
+(Constraints: Max 150 Characters)
 
-Button (optional)
-- Button type (Mandatory)
-- Text (Mandatory)
-- Color scheme (Mandatory)
-- Button link or function (One is mandatory)
+Button
+- Button type* 
+(Default: Primary button)
+- Button text* 
+(Default: Get started)
+(Constraints: Max 50 Characters)
+- Button color scheme* 
+(Default: Brand primary (Orangered))
+- Button link or function* 
+(Default: /home) 
+(Tooltip: Pages within the website can be navigated to by typing /pagename)
 
-ImageCTA (Mandatory)
-- Title (Optional)
-- Text (Optional)
-- Button link or function (One is mandatory)
+ImageCTA*
+- Image 
+  - Link* 
+  (Default: Fallback image)
+  - alt* 
+  (Default: Description of the image)
+  
+- Title 
+(Default: Image Call-to-action)
+- Text 
+(Default: Short text encouraging users to take action)
+- Button link or function* 
+(Default: /home) 
+(Tooltip: Pages within the website can be navigated to by typing /pagename)
+
+* means mandatory

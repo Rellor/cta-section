@@ -9,6 +9,10 @@
     "buttonLink": "/"
   },
   "imageCTA": {
+    "image": {
+      "src": "/images/Image.png",
+      "alt": "Descriptive alt text for the image"
+    },
     "title": "Title",
     "text": "Supporting text about the call-to-action goes here.",
     "buttonLink": "/"

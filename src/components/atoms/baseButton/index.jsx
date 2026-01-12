@@ -11,6 +11,7 @@ const BaseButton = (props) => {
   return (
     <button
       className={`group ${usedStyle} disabled:text-black/30 text-normal w-fit cursor-pointer transoition-colors duration-200 `}
+      aria-label="Base Button"
     >
       {props.text} <ArrowRight className="inline" usedColor={colorScheme} />
     </button>
