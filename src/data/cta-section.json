@@ -1,0 +1,16 @@
+{
+  "label": "Label",
+  "sectionTitle": "Mandatory title about the <span>call-to-action</span> here",
+  "sectionText": "Optional body copy goes here.",
+  "button": {
+    "buttonType": "Primary",
+    "text": "Optional button",
+    "colorScheme": "orangeRed",
+    "buttonLink": "/"
+  },
+  "imageCTA": {
+    "title": "Title",
+    "text": "Supporting text about the call-to-action goes here.",
+    "buttonLink": "/"
+  }
+}

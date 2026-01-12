@@ -1,0 +1,16 @@
+Label (Mandatory)
+
+Section-title (Mandatory) (Editable with <span>)
+
+Section-text (Optional)
+
+Button (optional)
+- Button type (Mandatory)
+- Text (Mandatory)
+- Color scheme (Mandatory)
+- Button link or function (One is mandatory)
+
+ImageCTA (Mandatory)
+- Title (Optional)
+- Text (Optional)
+- Button link or function (One is mandatory)

@@ -48,3 +48,7 @@ h2 {
 h4 {
   @apply text-mobile-heading-4 sm:text-heading-4 font-commons font-semibold leading-6 sm:leading-8 tracking-[-0.01em] sm:tracking-[-0.02em];
 }
+
+span {
+  @apply font-gt-alpina font-light mr-2  text-mobile-heading-2-highlight sm:text-heading-2-highlight;
+}
